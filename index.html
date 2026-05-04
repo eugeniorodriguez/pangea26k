@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pangea 6º Primaria - Entrenamiento 23 mayo 2026</title>
+    <meta
+      name="description"
+      content="Entrenador responsive con ejercicios historicos Pangea para 6º de Primaria, teoria base y soluciones plegadas."
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">P</span>
+        <div>
+          <strong>Pangea 6º</strong>
+          <span>Entrenamiento final</span>
+        </div>
+      </div>
+      <nav class="view-tabs" aria-label="Vistas">
+        <button class="tab is-active" data-view="train" type="button">Entrenar</button>
+        <button class="tab" data-view="categories" type="button">Categorías</button>
+        <button class="tab" data-view="sources" type="button">Fuentes</button>
+      </nav>
+      <div class="countdown" aria-label="Cuenta atras">
+        <span id="daysLeft">--</span>
+        <small>días para el 23/05/2026</small>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <aside class="filters" aria-label="Filtros">
+        <div class="filter-head">
+          <span>Plan de trabajo</span>
+          <strong id="progressText">0 / 0</strong>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <span id="progressBar"></span>
+        </div>
+
+        <label class="field">
+          <span>Buscar</span>
+          <input id="searchInput" type="search" placeholder="por tema, año o enunciado" />
+        </label>
+
+        <label class="field">
+          <span>Año</span>
+          <select id="yearFilter"></select>
+        </label>
+
+        <label class="field">
+          <span>Ronda</span>
+          <select id="roundFilter"></select>
+        </label>
+
+        <label class="field">
+          <span>Dificultad</span>
+          <select id="difficultyFilter">
+            <option value="">Todas</option>
+            <option value="facil">Fácil</option>
+            <option value="medio">Media</option>
+            <option value="reto">Reto</option>
+          </select>
+        </label>
+
+        <div class="check-row">
+          <label><input id="visualFilter" type="checkbox" /> Con figura</label>
+          <label><input id="pendingFilter" type="checkbox" /> Pendientes</label>
+        </div>
+
+        <div class="category-list" id="categoryFilter"></div>
+      </aside>
+
+      <section class="workspace">
+        <section class="status-band">
+          <div>
+            <p class="eyebrow">23 de mayo de 2026</p>
+            <h1>255 ejercicios históricos, listos para entrenar por categoría.</h1>
+          </div>
+          <div class="metrics" id="metrics"></div>
+        </section>
+
+        <section id="viewTrain" class="view is-visible"></section>
+        <section id="viewCategories" class="view"></section>
+        <section id="viewSources" class="view"></section>
+      </section>
+    </main>
+
+    <script src="data/exercises.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

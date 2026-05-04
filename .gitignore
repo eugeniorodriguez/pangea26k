@@ -19,3 +19,7 @@ env/
 .idea/
 *.swp
 *.tmp
+
+# Keep GitHub Pages entrypoints even if they are ignored globally
+!index.html
+!.nojekyll
