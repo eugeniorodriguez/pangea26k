@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local configuration
+.env
+.env.*
+
+# Editor and temporary files
+.vscode/
+.idea/
+*.swp
+*.tmp

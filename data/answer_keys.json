@@ -1,0 +1,818 @@
+{
+  "6o-Primaria-2.pdf": {
+    "1": {
+      "letter": "a",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "2": {
+      "letter": "a",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "3": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "4": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "5": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "6": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "7": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "8": {
+      "letter": "b",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "9": {
+      "letter": "a",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "10": {
+      "letter": "e",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "11": {
+      "letter": "b",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "12": {
+      "letter": "c",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "13": {
+      "letter": "d",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "14": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "15": {
+      "letter": "a",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "16": {
+      "letter": "d",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "17": {
+      "letter": "a",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "18": {
+      "letter": "d",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "19": {
+      "letter": "e",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "20": {
+      "letter": "b",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    }
+  },
+  "6o-Primaria-3.pdf": {
+    "1": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "2": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "3": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "4": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "5": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "6": {
+      "letter": "a",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "7": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "8": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "9": {
+      "letter": "b",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "10": {
+      "letter": "d",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "11": {
+      "letter": "e",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "12": {
+      "letter": "b",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "13": {
+      "letter": "a",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "14": {
+      "letter": "b",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "15": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "16": {
+      "letter": "a",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "17": {
+      "letter": "e",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "18": {
+      "letter": "e",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "19": {
+      "letter": "b",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "20": {
+      "letter": "e",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    }
+  },
+  "6o-Primaria.pdf": {
+    "1": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "2": {
+      "letter": "a",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "3": {
+      "letter": "b",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "4": {
+      "letter": "b",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "5": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "6": {
+      "letter": "a",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "7": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "8": {
+      "letter": "a",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "9": {
+      "letter": "b",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "10": {
+      "letter": "e",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "11": {
+      "letter": "d",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "12": {
+      "letter": "c",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "13": {
+      "letter": "e",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "14": {
+      "letter": "a",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "15": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "16": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "17": {
+      "letter": "d",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "18": {
+      "letter": "e",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "19": {
+      "letter": "b",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "20": {
+      "letter": "d",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    }
+  },
+  "6o-Primaria-1.pdf": {
+    "1": {
+      "letter": "b",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "2": {
+      "letter": "a",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "3": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "4": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "5": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "6": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "7": {
+      "letter": "a",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "8": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "9": {
+      "letter": "c",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "10": {
+      "letter": "b",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "11": {
+      "letter": "c",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "12": {
+      "letter": "a",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "13": {
+      "letter": "a",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "14": {
+      "letter": "b",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "15": {
+      "letter": "d",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "16": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "17": {
+      "letter": "c",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "18": {
+      "letter": "e",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "19": {
+      "letter": "d",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "20": {
+      "letter": "c",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    }
+  },
+  "6o-Primaria-1.-Ronda-2021.pdf": {
+    "1": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "2": {
+      "letter": "b",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "3": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "4": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "5": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "6": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "7": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "8": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "9": {
+      "letter": "b",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "10": {
+      "letter": "e",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "11": {
+      "letter": "e",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "12": {
+      "letter": "e",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "13": {
+      "letter": "a",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "14": {
+      "letter": "d",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "15": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "16": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "17": {
+      "letter": "c",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "18": {
+      "letter": "b",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "19": {
+      "letter": "b",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "20": {
+      "letter": "b",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    }
+  },
+  "6o-Primaria-4.pdf": {
+    "1": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "2": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "3": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "4": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "5": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "6": {
+      "letter": "a",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "7": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "8": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "9": {
+      "letter": "a",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "10": {
+      "letter": "a",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "11": {
+      "letter": "d",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "12": {
+      "letter": "c",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "13": {
+      "letter": "b",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "14": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "15": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "16": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "17": {
+      "letter": "e",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "18": {
+      "letter": "d",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "19": {
+      "letter": "c",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "20": {
+      "letter": "c",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    }
+  },
+  "Pangea22_PrimeraFase_6o-PRIMARIA.pdf": {
+    "1": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "2": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "3": {
+      "letter": "b",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "4": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "5": {
+      "letter": "b",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "6": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "7": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "8": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "9": {
+      "letter": "c",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "10": {
+      "letter": "c",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "11": {
+      "letter": "b",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "12": {
+      "letter": "a",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "13": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "14": {
+      "letter": "d",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "15": {
+      "letter": "a",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "16": {
+      "letter": "b",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "17": {
+      "letter": "b",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "18": {
+      "letter": "c",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "19": {
+      "letter": "a",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "20": {
+      "letter": "c",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    }
+  },
+  "Pangea22_FaseFinal_6o-PRIMARIA.pdf": {
+    "1": {
+      "letter": "b",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "2": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "3": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "4": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "5": {
+      "letter": "c",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "6": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "7": {
+      "letter": "d",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "8": {
+      "letter": "e",
+      "points": 2,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "9": {
+      "letter": "b",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "10": {
+      "letter": "c",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "11": {
+      "letter": "c",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "12": {
+      "letter": "b",
+      "points": 3,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "13": {
+      "letter": "d",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "14": {
+      "letter": "c",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "15": {
+      "letter": "e",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "16": {
+      "letter": "a",
+      "points": 4,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "17": {
+      "letter": "e",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "18": {
+      "letter": "c",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "19": {
+      "letter": "a",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    },
+    "20": {
+      "letter": "e",
+      "points": 5,
+      "origin": "Solucionario oficial Pangea"
+    }
+  }
+}
