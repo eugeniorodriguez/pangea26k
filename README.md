@@ -37,3 +37,19 @@ El resultado actual ya esta incluido en `data/exercises.js` y `assets/`, asi que
 ## Publicacion
 
 El proyecto esta pensado para subirse como sitio estatico. En GitHub Pages puede publicarse desde la rama principal y la carpeta raiz del repositorio.
+
+No usa rutas absolutas, asi que funciona correctamente bajo la subruta del proyecto en GitHub Pages:
+
+```text
+https://eugeniorodriguez.github.io/pangea26k/
+```
+
+Pasos recomendados:
+
+1. Sube el contenido a la rama `main`.
+2. En GitHub, entra en `Settings > Pages`.
+3. Selecciona `Deploy from a branch`.
+4. Elige la rama `main` y la carpeta `/ (root)`.
+5. Guarda la configuracion y espera a que GitHub publique la web.
+
+El archivo `.nojekyll` se incluye para que GitHub Pages sirva el contenido tal cual, sin procesarlo como sitio Jekyll.
