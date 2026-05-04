@@ -639,6 +639,20 @@ button { cursor: pointer; }
   text-transform: uppercase;
 }
 
+.verified-tag {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #065f46;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 .solution-body {
   display: grid;
   gap: 12px;

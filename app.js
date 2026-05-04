@@ -6,7 +6,20 @@
 
 const DATA = window.PANGEA_DATA;
 const SOLUTIONS = window.PANGEA_SOLUTIONS || {};
-const exercises = DATA.exercises;
+const OVERRIDES = window.PANGEA_OVERRIDES || {};
+
+// Aplicamos overrides verificados a los ejercicios. Si la respuesta original
+// del solucionario era incorrecta (auditada matematicamente), la sustituimos.
+const exercises = DATA.exercises.map((ex) => {
+  const ov = OVERRIDES[ex.id];
+  if (!ov) return ex;
+  return {
+    ...ex,
+    answer: { ...(ex.answer || {}), letter: ov.answer, origin: "Verificada matematicamente" },
+    correctOption: ov.correctText || ex.correctOption,
+    verifiedAnswer: true
+  };
+});
 
 // --------- Niveles temaicos (XP -> rango cadete) ----------------------------
 const LEVELS = [
@@ -93,7 +106,7 @@ function normalize(value) {
   return String(value ?? "")
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "");
+    .replace(/[\u0300-\u036f]/g, "");
 }
 
 function unique(values) {
@@ -249,9 +262,64 @@ function renderOption(option, exercise, attempt) {
   `;
 }
 
+function reconcileSolution(exercise) {
+  // 1) Si tenemos un override verificado matematicamente, lo usamos: tiene
+  //    teoria, pasos y comprobacion adaptados al enunciado real.
+  const ov = OVERRIDES[exercise.id];
+  if (ov) {
+    const realLetter = (exercise.answer?.letter || "").toLowerCase();
+    const realAnswer = `${realLetter}) ${(exercise.correctOption || ov.correctText || "").trim()}`.trim();
+    return {
+      theory: ov.theory,
+      approach: null,
+      hint: null,
+      steps: ov.steps,
+      check: ov.check,
+      answer: realAnswer,
+      verified: true
+    };
+  }
+
+  // 2) Si no hay override, usamos lo que escribimos en SOLUTIONS, pero
+  //    reconciliando con la answer real del exercise.
+  const sol = SOLUTIONS[exercise.id];
+  if (!sol) return null;
+  const realLetter = (exercise.answer?.letter || "").toLowerCase();
+  const realAnswer = realLetter
+    ? `${realLetter}) ${(exercise.correctOption || "").trim()}`.trim()
+    : "";
+  const solMatch = sol.answer && sol.answer.match(/^([a-eA-E])\)/);
+  const solLetter = solMatch ? solMatch[1].toLowerCase() : null;
+
+  // Si la solucion fue redactada para otra opcion, descartamos teoria/pasos
+  // /pista/comprobacion concretos (pueden estar mal). Usamos la teoria
+  // generica por categoria que ya viene en exercise.theory + exercise.attack.
+  if (solLetter && realLetter && solLetter !== realLetter) {
+    return {
+      theory: exercise.theory,
+      approach:
+        exercise.attack ||
+        "Lee con calma el enunciado, identifica los datos y aplica la teoria base. Despues compara tu resultado con las opciones.",
+      hint: null,
+      steps: null,
+      check: "Revisa que tu resultado coincide con una de las opciones y que las unidades cuadran.",
+      answer: realAnswer
+    };
+  }
+
+  return {
+    theory: sol.theory,
+    approach: sol.approach,
+    hint: sol.hint,
+    steps: sol.steps,
+    check: sol.check,
+    answer: sol.answer || realAnswer
+  };
+}
+
 function renderSolution(exercise, attempt) {
   if (!attempt) return "";
-  const sol = SOLUTIONS[exercise.id];
+  const sol = reconcileSolution(exercise);
   const stepsHtml = sol?.steps
     ? `<ol class="steps">${sol.steps.map((s) => `<li>${escapeHtml(s)}</li>`).join("")}</ol>`
     : "";
@@ -267,11 +335,16 @@ function renderSolution(exercise, attempt) {
   const answerLine = sol?.answer || `${exercise.answer?.letter || "?"}) ${exercise.correctOption || ""}`;
   const theory = sol?.theory || exercise.theory;
 
+  const verifiedTag = sol?.verified
+    ? '<span class="verified-tag" title="Auditado matematicamente">verificada</span>'
+    : "";
+
   return `
     <div class="solution-pack">
       <div class="solution-head ${attempt.correct ? "ok" : "ko"}">
         <span class="solution-tag">${attempt.correct ? "iCorrecto!" : "Casi"}</span>
         <strong>Respuesta: ${escapeHtml(answerLine)}</strong>
+        ${verifiedTag}
       </div>
       <div class="solution-body">
         <div class="block theory"><span class="block-title">Teoria</span><p>${escapeHtml(theory)}</p></div>
